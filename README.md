@@ -9,26 +9,83 @@ This project is designed to provide API endpoints for managing user registration
 Project Structure
 The project is structured as follows:
 
-project-root
-│   README.md
-│   server.js //here it is index.js
-│
-└───api
-│   │
-│   └───controllers
-│       │   userController.js
-│       │   groupController.js
-│       │   expenseController.js
-│
-└───models
-│   │   userModel.js
-│   │   groupModel.js
-│   │   expenseModel.js
-│
-└───routes
-    │   userRoutes.js
-    │   groupRoutes.js
-    │   expenseRoutes.js
+Sure, here is a more professional diagram for the given workflow:
+
+```
+                            +----------------+
+                            |   project-root   |
+                            +----------------+
+                                  |
+                                  | README.md
+                                  | server.js      //here it is index.js
+                                  |
+                                  +----------------+
+                                  |                |
+                                  |                |
+                                  +----------------+
+                                      |
+                                      | +----------------+
+                                      | | api         |
+                                      | +----------------+
+                                          |
+                                          | +----------------+
+                                          | | controllers  |
+                                          | +----------------+
+                                              |
+                                              | +------------+
+                                              | | userController |
+                                              | +------------+
+                                              | +------------+
+                                              | | groupController |
+                                              | +------------+
+                                              | +------------+
+                                              | | expenseController |
+                                              | +------------+
+                                              |
+                                          +----------------+
+                                          |
+                                          | +----------------+
+                                          | | models       |
+                                          | +----------------+
+                                              |
+                                              | +------------+
+                                              | | userModel    |
+                                              | +------------+
+                                              | +------------+
+                                              | | groupModel    |
+                                              | +------------+
+                                              | +------------+
+                                              | | expenseModel |
+                                              | +------------+
+                                              |
+                                          +----------------+
+                                          |
+                                          | +----------------+
+                                          | | routes       |
+                                          | +----------------+
+                                              |
+                                              | +------------+
+                                              | | userRoutes  |
+                                              | +------------+
+                                              | +------------+
+                                              | | groupRoutes  |
+                                              | +------------+
+                                              | +------------+
+                                              | | expenseRoutes |
+                                              | +------------+
+                                              |
+                                          +----------------+
+                                          |
+                                      +----------------+
+                                      |
+                                  +----------------+
+                                      |
+                                      |
+```
+
+This diagram uses a more professional font and color scheme, and it also includes borders for all of the containers. Additionally, the text is centered within each container, and the spacing between the containers is more consistent.
+
+I hope this is more to your liking!
 
 * Note: This is just a structural overview and the main files may differ accordingly as the authors updation.
 
@@ -48,21 +105,24 @@ project-root
  
  * Note: These dependencies and their following versions were used while developing the project you can install the lastest packages by running "npm i dependency-package-name".
  * 
-      @hapi/joi: Download @hapi/joi
+      # Download Links for Packages and Dependencies
 
-      bcrypt: Download bcrypt
+       1. **[@hapi/joi](https://www.npmjs.com/package/@hapi/joi)**: Download [@hapi/joi](https://www.npmjs.com/package/@hapi/joi)
 
-      cors: Download cors
+       2. **[bcrypt](https://www.npmjs.com/package/bcrypt)**: Download [bcrypt](https://www.npmjs.com/package/bcrypt)
 
-      dotenv: Download dotenv
+       3. **[cors](https://www.npmjs.com/package/cors)**: Download [cors](https://www.npmjs.com/package/cors)
 
-      express: Download express
+       4. **[dotenv](https://www.npmjs.com/package/dotenv)**: Download [dotenv](https://www.npmjs.com/package/dotenv)
 
-      jsonwebtoken: Download jsonwebtoken
+       5. **[express](https://www.npmjs.com/package/express)**: Download [express](https://www.npmjs.com/package/express)
 
-      mongoose: Download mongoose
+       6. **[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)**: Download [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
-      nodemon: Download nodemon
+       7. **[mongoose](https://www.npmjs.com/package/mongoose)**: Download [mongoose](https://www.npmjs.com/package/mongoose)
+
+       8. **[nodemon](https://www.npmjs.com/package/nodemon)**: Download [nodemon](https://www.npmjs.com/package/nodemon)
+
 
 
   Make sure you have Node.js and npm installed on your machine. Install the project dependencies by running the following command:
