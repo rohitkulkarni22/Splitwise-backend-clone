@@ -1,7 +1,7 @@
-### Splitwise-backend-clone
+# Splitwise-backend-clone
   Building a Backend Service for a Splitwise-like App
 
-# Using NodeJS, MongoDB & ExpressJS
+## Using NodeJS, MongoDB & ExpressJS
 
 Overview
 This project is designed to provide API endpoints for managing user registration, user login, group creation, adding new members to a group, creating expenses within a group, viewing expenses, settling expenses between users, and splitting expenses between users.
