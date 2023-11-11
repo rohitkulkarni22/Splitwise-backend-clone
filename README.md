@@ -48,14 +48,21 @@ project-root
  
  * Note: These dependencies and their following versions were used while developing the project you can install the lastest packages by running "npm i dependency-package-name".
  * 
-    "@hapi/joi": "^17.1.1",
-    "bcrypt": "^5.1.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.0",
-    "nodemon": "^3.0.1"
+      @hapi/joi: Download @hapi/joi
+
+      bcrypt: Download bcrypt
+
+      cors: Download cors
+
+      dotenv: Download dotenv
+
+      express: Download express
+
+      jsonwebtoken: Download jsonwebtoken
+
+      mongoose: Download mongoose
+
+      nodemon: Download nodemon
 
 
   Make sure you have Node.js and npm installed on your machine. Install the project dependencies by running the following command:
